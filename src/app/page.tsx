@@ -11,6 +11,17 @@ import { Footer } from '@/components/layout/footer';
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0);
+  const [theme, setTheme] = useState('dark');
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    document.documentElement.className = newTheme;
+  };
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, [theme]);
 
   const handleScroll = () => {
     setScrollY(window.scrollY);
@@ -23,7 +34,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
-      <Navbar />
+      <Navbar toggleTheme={toggleTheme} currentTheme={theme} />
       <main className="flex-grow">
         <HeroSection scrollY={scrollY} />
         <ExperienceSection />

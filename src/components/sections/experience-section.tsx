@@ -69,7 +69,7 @@ const TimelineItem = ({ experience, isLeft }: { experience: (typeof experiences)
             <p className="text-muted-foreground mb-4">{experience.description}</p>
             <div className="flex flex-wrap gap-2">
               {experience.skills.map(skill => (
-                <Badge key={skill} variant="secondary" className="bg-accent/20 text-accent">{skill}</Badge>
+                <Badge key={skill} variant="secondary">{skill}</Badge>
               ))}
             </div>
           </CardContent>

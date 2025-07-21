@@ -62,16 +62,16 @@ export function ProjectsSection() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 </div>
                 <CardHeader>
-                  <CardTitle className="text-2xl text-primary-foreground group-hover:text-primary transition-colors">{project.title}</CardTitle>
+                  <CardTitle className="text-2xl text-foreground group-hover:text-primary transition-colors">{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>
                 </CardHeader>
                 <CardContent className="flex flex-col justify-between flex-grow">
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tags.map((tag) => (
-                      <Badge key={tag} variant="secondary" className="bg-accent/20 text-accent">{tag}</Badge>
+                      <Badge key={tag} variant="secondary">{tag}</Badge>
                     ))}
                   </div>
-                  <div className="flex items-center text-sm text-accent group-hover:underline">
+                  <div className="flex items-center text-sm text-primary group-hover:underline">
                     View Project <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                   </div>
                 </CardContent>
