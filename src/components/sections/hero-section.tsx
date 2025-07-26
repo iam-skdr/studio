@@ -19,7 +19,7 @@ export function HeroSection({ scrollY }: HeroSectionProps) {
       <div className="absolute inset-0 bg-background/50 z-10" />
       
       <div className="relative z-20 container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold font-headline text-foreground dark:text-primary-foreground tracking-tighter mb-4">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold font-headline text-foreground tracking-tighter mb-4">
           <span
             className="text-primary animate-glow"
             style={{ textShadow: '0 0 20px hsl(var(--primary))' }}
@@ -32,10 +32,10 @@ export function HeroSection({ scrollY }: HeroSectionProps) {
           An interactive portfolio designed to captivate and engage. Welcome to the future of digital presence.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Button size="lg" asChild className="glassmorphism hover:bg-primary/50 text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-primary/50 transition-shadow">
+          <Button size="lg" asChild className="dark:glassmorphism hover:bg-primary/80 dark:hover:bg-primary/50 text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-primary/50 transition-shadow">
             <a href="#projects">View My Work</a>
           </Button>
-          <Button size="lg" variant="outline" asChild className="glassmorphism bg-background/30 hover:bg-accent/50 text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-accent/50 transition-shadow">
+          <Button size="lg" variant="outline" asChild className="dark:glassmorphism dark:bg-background/30 hover:bg-accent dark:hover:bg-accent/50 text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-accent/50 transition-shadow">
             <a href="#contact">Get in Touch</a>
           </Button>
         </div>
