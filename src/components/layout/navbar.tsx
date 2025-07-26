@@ -47,7 +47,7 @@ export function Navbar({ toggleTheme, currentTheme }: NavbarProps) {
               <Sun className="h-6 w-6 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
               <Moon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
             </Button>
-            <Button asChild className="glassmorphism hover:bg-primary/50 text-primary-foreground">
+            <Button asChild className="dark:glassmorphism dark:hover:bg-primary/50">
               <a href="#contact">Hire Me</a>
             </Button>
           </div>
@@ -78,7 +78,7 @@ export function Navbar({ toggleTheme, currentTheme }: NavbarProps) {
                 {link.label}
               </a>
             ))}
-            <Button asChild className="w-full glassmorphism hover:bg-primary/50 text-primary-foreground mt-2">
+            <Button asChild className="w-full dark:glassmorphism dark:hover:bg-primary/50 mt-2">
               <a href="#contact" onClick={() => setIsOpen(false)}>Hire Me</a>
             </Button>
           </nav>
