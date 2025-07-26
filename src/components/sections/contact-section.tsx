@@ -86,7 +86,7 @@ export function ContactSection() {
                     </FormItem>
                   )}
                 />
-                <Button type="submit" size="lg" className="w-full dark:glassmorphism text-lg dark:hover:bg-primary/50 group" disabled={form.formState.isSubmitting}>
+                <Button type="submit" size="lg" className="w-full light:bg-primary light:text-primary-foreground light:hover:bg-primary/90 dark:glassmorphism text-lg dark:hover:bg-primary/50 group" disabled={form.formState.isSubmitting}>
                   Send Message
                   <Send className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
                 </Button>
