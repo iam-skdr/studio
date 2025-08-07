@@ -5,36 +5,44 @@ import { ArrowRight } from 'lucide-react';
 
 const projects = [
   {
-    title: 'AI-Powered Content Generator',
-    description: 'A web platform that uses LLMs to generate marketing copy, blog posts, and social media updates.',
+    title: 'CS Agent: A PPT Generation Tool',
+    description: 'Engineered an AI agent to automatically generate new PowerPoint presentations by extracting and repurposing content from existing files. The system uses LangChain and Azure OpenAI Assistants to produce structured JSON content, which is then parsed by a custom Python script to create professionally formatted presentations.',
     image: 'https://placehold.co/600x400.png',
-    tags: ['Next.js', 'GenAI', 'Stripe', 'Vercel'],
+    tags: ['LangChain', 'Azure OpenAI', 'Python'],
     link: '#',
-    aiHint: 'abstract tech'
+    aiHint: 'ai presentation'
   },
   {
-    title: 'Interactive Data Visualization Dashboard',
-    description: 'A real-time analytics dashboard for a fintech startup, featuring complex data visualizations and user-friendly controls.',
+    title: 'Self-Healing Test Analysis Tool',
+    description: 'Developed a full-stack tool to enhance CI/CD testing processes. The system analyzes test reports from GitHub Actions, uses LLMs to identify and attempt to self-heal failed scripts, and logs detailed failure analysis in a PostgreSQL database.',
     image: 'https://placehold.co/600x400.png',
-    tags: ['React', 'D3.js', 'Node.js', 'WebSocket'],
+    tags: ['React', 'PostgreSQL', 'Python', 'LLMs', 'GitHub Actions', 'Jira'],
     link: '#',
-    aiHint: 'data chart'
+    aiHint: 'ci-cd pipeline'
   },
   {
-    title: 'E-commerce Scalability Solution',
-    description: 'Re-architected a major e-commerce platform to handle 10x traffic increase using microservices and cloud-native tech.',
+    title: 'Test Coverage Agent',
+    description: 'Created an intelligent agent to assess the coverage of test cases against user stories. This tool utilizes LangChain and Azure OpenAI to identify gaps and automatically generate new test cases, ensuring comprehensive software testing.',
     image: 'https://placehold.co/600x400.png',
-    tags: ['AWS', 'Kubernetes', 'Go', 'PostgreSQL'],
+    tags: ['LangChain', 'Azure OpenAI', 'React'],
     link: '#',
-    aiHint: 'online shopping'
+    aiHint: 'software testing'
   },
   {
-    title: 'Mobile Health & Wellness App',
-    description: 'A cross-platform mobile app for tracking fitness goals and providing personalized workout plans.',
+    title: 'Sign Language Interpreter',
+    description: 'Engineered a real-time sign language interpreter to bridge communication gaps for the hearing-impaired. This project utilizes a Deep Convolutional Neural Network (CNN) to accurately classify and translate sign language gestures from a live video feed.',
     image: 'https://placehold.co/600x400.png',
-    tags: ['React Native', 'Firebase', 'GraphQL'],
+    tags: ['Python', 'TensorFlow/PyTorch', 'OpenCV', 'Deep Learning'],
     link: '#',
-    aiHint: 'fitness app'
+    aiHint: 'sign language'
+  },
+  {
+    title: 'Virtual Assistance for Visually Impaired',
+    description: 'Developed a virtual assistant to enhance the independence of visually impaired individuals. The application uses a live video stream to perform real-time object detection and scene analysis, converting visual insights into clear, spoken descriptions.',
+    image: 'https://placehold.co/600x400.png',
+    tags: ['Python', 'OpenCV', 'YOLO/SSD', 'gTTS'],
+    link: '#',
+    aiHint: 'visual assistance'
   },
 ];
 

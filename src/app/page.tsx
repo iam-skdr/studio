@@ -8,6 +8,8 @@ import { SkillsSection } from '@/components/sections/skills-section';
 import { ProjectsSection } from '@/components/sections/projects-section';
 import { ContactSection } from '@/components/sections/contact-section';
 import { Footer } from '@/components/layout/footer';
+import { EducationSection } from '@/components/sections/education-section';
+import { CertificationsSection } from '@/components/sections/certifications-section';
 
 export default function Home() {
   const [scrollY, setScrollY] = useState(0);
@@ -40,6 +42,8 @@ export default function Home() {
         <ExperienceSection />
         <SkillsSection />
         <ProjectsSection />
+        <EducationSection />
+        <CertificationsSection />
         <ContactSection />
       </main>
       <Footer />

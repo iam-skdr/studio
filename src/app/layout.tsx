@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Aura Portfolio',
+  title: 'V. Sri Krishna Deva Rayudu | AI & ML Engineer',
   description: 'An interactive portfolio that captivates from the first scroll.',
 };
 

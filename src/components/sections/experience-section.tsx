@@ -9,25 +9,25 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    role: 'Lead AI Engineer',
-    company: 'Innovate AI',
-    period: '2020 - Present',
-    description: 'Leading the development of cutting-edge AI solutions, focusing on natural language processing and computer vision. Driving project lifecycle from conception to deployment.',
-    skills: ['AI/ML', 'Python', 'TensorFlow', 'Project Management'],
+    role: 'AI Research Intern',
+    company: 'Change Management Enterprise',
+    period: 'Apr 2024 – May 2024',
+    description: 'Researched and prototyped NLP and AI solutions for education, assessing their impact on teaching methods.',
+    skills: ['AI/ML', 'NLP', 'Prototyping'],
   },
   {
-    role: 'Senior Software Developer',
-    company: 'Tech Solutions Inc.',
-    period: '2018 - 2020',
-    description: 'Developed and maintained scalable web applications for enterprise clients. Mentored junior developers and improved code quality across the team.',
-    skills: ['React', 'Node.js', 'TypeScript', 'AWS'],
+    role: 'Research Intern',
+    company: 'Compsoft Technologies',
+    period: 'Aug 2023 – Oct 2023',
+    description: 'Completed a project on "Voice Assistance for Visually Impaired" using advanced voice recognition and natural language processing technologies to create a user-friendly solution.',
+    skills: ['Voice Recognition', 'NLP', 'Computer Vision'],
   },
   {
-    role: 'Frontend Developer',
-    company: 'Creative Web Agency',
-    period: '2016 - 2018',
-    description: 'Built responsive and interactive user interfaces for various clients, enhancing user experience and engagement through modern web technologies.',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'Vue.js'],
+    role: 'Exclusive Paid Intern',
+    company: 'Sookshmas E-learning',
+    period: 'Aug 2022 – Oct 2023',
+    description: 'Developed a full e-commerce website, mentored over 200 students in project implementation, and served as Head Editor and Content Creator for the "SBK CS GEEKS" YouTube channel.',
+    skills: ['E-commerce', 'Mentorship', 'Content Creation', 'Video Editing'],
   },
 ];
 
@@ -92,7 +92,7 @@ export function ExperienceSection() {
     <section id="experience" className="py-20 md:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold font-headline">Experience</h2>
+          <h2 className="text-4xl md:text-5xl font-bold font-headline">Work Experience</h2>
           <p className="text-lg text-muted-foreground mt-4">My professional journey and accomplishments.</p>
         </div>
         <div className="relative flex flex-col items-center gap-16">

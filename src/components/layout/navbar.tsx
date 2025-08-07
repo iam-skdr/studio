@@ -10,6 +10,8 @@ const navLinks = [
   { href: '#experience', label: 'Experience' },
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
+  { href: '#education', label: 'Education' },
+  { href: '#certifications', label: 'Certs' },
   { href: '#contact', label: 'Contact' },
 ];
 
@@ -27,7 +29,7 @@ export function Navbar({ toggleTheme, currentTheme }: NavbarProps) {
         <div className="mt-4 flex h-16 items-center justify-between rounded-xl glassmorphism px-6">
           <a href="#" className="flex items-center gap-2 text-2xl font-bold text-foreground hover:text-primary transition-colors">
             <Code2 className="h-8 w-8 text-primary animate-glow" />
-            <span className="font-headline">Aura</span>
+            <span className="font-headline">SKDR</span>
           </a>
           
           <nav className="hidden md:flex items-center gap-2">
@@ -47,7 +49,7 @@ export function Navbar({ toggleTheme, currentTheme }: NavbarProps) {
               <Sun className="h-6 w-6 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
               <Moon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
             </Button>
-            <Button asChild className="light:bg-primary light:text-primary-foreground light:hover:bg-primary/90 dark:glassmorphism dark:hover:bg-primary/50">
+            <Button asChild className="light:bg-primary light:text-primary-foreground light:hover:bg-primary/90">
               <a href="#contact">Hire Me</a>
             </Button>
           </div>
@@ -78,7 +80,7 @@ export function Navbar({ toggleTheme, currentTheme }: NavbarProps) {
                 {link.label}
               </a>
             ))}
-            <Button asChild className="w-full light:bg-primary light:text-primary-foreground light:hover:bg-primary/90 dark:glassmorphism dark:hover:bg-primary/50 mt-2">
+            <Button asChild className="w-full light:bg-primary light:text-primary-foreground light:hover:bg-primary/90 mt-2">
               <a href="#contact" onClick={() => setIsOpen(false)}>Hire Me</a>
             </Button>
           </nav>
